@@ -1,0 +1,30 @@
+{
+  "name": "probit-events-util",
+  "version": "0.0.1",
+  "description": "probit events util for validating the events's Compatible Events Tolerance and Exclusive Events Tolerance",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/draba1986/probit-events-util"
+  },
+  "keywords": [
+    "probit",
+    "events",
+    "event"
+  ],
+  "author": "draba",
+  "license": "Apache License Version 2.0",
+  "bugs": {
+    "url": "https://github.com/draba1986/probit-events-util/issues"
+  },
+  "homepage": "https://github.com/draba1986/probit-events-util",
+  "dependencies": {
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "2.2.5"
+  }
+}
