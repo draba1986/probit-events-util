@@ -1,6 +1,6 @@
 {
   "name": "probit-events-util",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "probit events util for validating the events's Compatible Events Tolerance and Exclusive Events Tolerance",
   "main": "index.js",
   "scripts": {

@@ -27,7 +27,13 @@ function ProbitEvents (sourceEvents) {
     this.compatible = function (events, tolerance) {
         events = _.isString(events) ? [events] : events;
         tolerance = _.isNumber(tolerance) ? tolerance : events.length;
-        return _.filter(events, eventHappened).length >= tolerance;
+        var countOfHappened = _.filter(events, eventHappened).length;
+        return  !countOfHappened || countOfHappened>= tolerance;
+    };
+
+    this.inevitable = function (events) {
+        events = _.isString(events) ? [events] : events;
+        return _.filter(events, eventHappened).length>=events.length;
     };
 }
 
